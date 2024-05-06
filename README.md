@@ -47,6 +47,16 @@ Additionally, the project utilizes Docker for containerization, allowing for eas
 
 Once the application is running, you can provide a list of names as input, and the application will sort them alphabetically.
 
+# Running the Code
+
+To run the code after building the project, execute:
+1. # Navigate to the root directory of your project
+2. # Compile Java source files:
+javac -d bin src\main\java\org\example\*.java
+
+3. # Run Java program:
+java -cp bin org.example.Main path\to\input-file.txt
+
 
 ## Automated Testing
 
