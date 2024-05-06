@@ -24,4 +24,4 @@ public class Main {
         sorter.sortNames(names);
         SortNames.writeNamesToFile(names, outputFileName);
     }
-}
+}// java
