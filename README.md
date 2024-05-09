@@ -55,8 +55,7 @@ To run the code after building the project, execute:
 javac -d bin src\main\java\org\example\*.java
 
 3. # Run Java program:
-java -cp bin org.example.Main path\to\input-file.txt
-
+java -cp bin org.example.Main libs\\unsorted-names-list.txt
 
 ## Automated Testing
 
